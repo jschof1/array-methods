@@ -1,0 +1,99 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.mindmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.center {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #f0c674;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.first-level {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.first-level div {
+  font-size: 18px;
+  margin: 10px 30px;
+  padding: 5px 10px;
+  background-color: #81a1c1;
+  border-radius: 5px;
+}
+
+/* You can add more styles to make it visually appealing and interactive */
+
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#array-input {
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.mindmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.first-level {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
